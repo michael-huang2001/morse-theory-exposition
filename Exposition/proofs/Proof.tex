@@ -1,0 +1,79 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\setlength{\hoffset}{-0.33in}
+\setlength{\voffset}{-1in}
+\setlength{\textwidth}{6in}
+\setlength{\textheight}{9in}
+
+\renewcommand{\i}{\infty}
+
+\newcommand{\cA}{{\mathcal A}}
+\newcommand{\cB}{{\mathcal B}}
+\newcommand{\cC}{{\mathcal C}}
+\newcommand{\cD}{{\mathcal D}}
+\newcommand{\cE}{{\mathcal E}}
+\newcommand{\cF}{{\mathcal F}}
+\newcommand{\cH}{{\mathcal H}}
+\newcommand{\cI}{{\mathcal I}}
+\newcommand{\cK}{{\mathcal K}}
+\newcommand{\cL}{{\mathcal L}}
+\newcommand{\cM}{{\mathcal M}}
+\newcommand{\cN}{{\mathcal N}}
+\newcommand{\cO}{{\mathcal O}}
+\newcommand{\cP}{{\mathcal P}}
+\newcommand{\cS}{{\mathcal S}}
+\newcommand{\cT}{{\mathcal T}}
+\newcommand{\cU}{{\mathcal U}}
+\newcommand{\cV}{{\mathcal V}}
+\newcommand{\cW}{{\mathcal W}}
+\newcommand{\cY}{{\mathcal Y}}
+
+% bold letters
+\newcommand{\bZ}{{\mathbb Z}}
+\newcommand{\bR}{{\mathbb R}}
+\newcommand{\bC}{{\mathbb C}}
+\newcommand{\bT}{{\mathbb T}}
+\newcommand{\bN}{{\mathbb N}}
+\newcommand{\bQ}{{\mathbb Q}}
+
+\newcommand{\bE}{{\boldsymbol E}}
+
+\begin{document}
+
+\graphicspath{ {images/} }
+\pagestyle{empty}
+
+\smallskip \noindent
+Proposition: A Morse function $f:M\rightarrow \bR$ defined on a closed surface $M$ has only a finite number of critical points.
+
+\begin{proof}
+      %Suppose towards contradiction that $f$ has an infinite number of critical points, $p_1,p_2,...$ . By the Morse lemma, for each of these critical points $p_i$ we have some neighborhood $U_i$ such that there is a local coordinate system $(x_i,y_i)$ in which $M$ takes one of the three standard forms. Now, we can consider two cases: there is some closed subset $A\subset M$ such that $A$ is covered by an infinite number of these $U_i$ neighborhoods, or no such $A$ exists. 
+      
+      %In the case that such $A$ exists, since $M$ is compact, $A$ is also compact since it is a closed subset. Notice the $U_i$ form an open cover for $A$, so there is some finite subcover $U_{\alpha_1},..., U_{\alpha_n}$. However, we claim now that $f$ can only have $n$ critical points in $A$. Indeed, by the Morse lemma, each $U_{\alpha_i}$ has a local coordinate system $(x,y)$ on which $M = \pm x^2 \pm y^2 +c$, so there is exactly one critical point in each $U_{\alpha_i}$, meaning the total number of critical points is equal to the total number in the finite subcover, $n$. Thus this case is impossible and we will just consider the second case. 
+
+     % If no such $A$ exists, then any closed subset of $M$ is covered by a finite number of $U_i$, or is not covered by any collection of $U_i$ at all. Again, if every closed subset of $M$ is covered by a finite number of $U_i$, we have that $M$ itself is covered by a finite number of $U_i$ and by the same argument as above, $f$ can only attain a finite number of critical points on $M$. 
+      
+      %Now, consider the set $S = \bigcup p_i$, of all critical points on $M$. We claim that $\bar{S} = S$, that is, $S$ is closed. Let $x \in \bar{S}$. Since $S$ is dense in $\bar{S}$, for any $\varepsilon > 0$, we can find some $p_i$ such that $d(p_i,x)<\varepsilon$. By looking at the sequence of $p_{i_n}$ such that $d(p_{i_n},x)\leq \frac{1}{2^n}$, we can find a sequence of critical points converging to $x$. We claim this means $x$ must be a critical point and thus in $S$. Indeed, since $\frac{\partial f}{\partial x^i}(p_{i_n}) = 0$ for all $p_{i_n}$ in this sequence, we have that $\frac{\partial f}{\partial x^i}(x) = 0$. Now that we know $S$ is a closed subset of a compact space, $S$ itself must be compact. Clearly the $U_i$ form an open cover of $S$, thus again applying the argument above, there is a finite subcover and thus $S$ can only contain a finite number of critical points. 
+
+      Consider the set $S = \bigcup p_i$, of all critical points on $M$. We claim that $\bar{S} = S$, that is, $S$ is closed. Let $x \in \bar{S}$. Since $S$ is dense in $\bar{S}$, for any $\varepsilon > 0$, we can find some $p_i$ such that $d(p_i,x)<\varepsilon$. By looking at the sequence of $p_{i_n}$ such that $d(p_{i_n},x)\leq \frac{1}{2^n}$, we can find a sequence of critical points converging to $x$. We claim this means $x$ must be a critical point and thus in $S$. Indeed, since $f$ is differentiable with continuous derivative, $\frac{\partial f}{\partial x^i}(p_{i_n}) = 0$ for all $p_{i_n}$ implies that $\frac{\partial f}{\partial x^i}(x) = 0$. Now that we know $S$ is a closed subset of a compact space, $S$ itself must be compact. Clearly the $U_i$ form an open cover of $S$, so since $S$ is compact, there is some finite subset $\{p_{\alpha_1}, ... ,p_{\alpha_n}\}$ of critical points such that the $U_{\alpha_i}$ cover S. However, we claim now that $f$ can only have $n$ critical points in $S$. Indeed, by the Morse lemma, each $U_{\alpha_i}$ has a local coordinate system $(x,y)$ on which $M = \pm x^2 \pm y^2 +c$, so there is exactly one critical point in each $U_{\alpha_i}$, meaning the total number of critical points is equal to the total number in the finite subcover, $n$.
+\end{proof}
+
+\vspace{10pt}
+\noindent
+Proposition: Let $f:M\rightarrow \bR$ be a Morse function and let $[a,b]$ be a real interval. If $f$ has no critical values in $[a,b]$, then $M_{[a,b]}\cong f^{-1}(a) \times [0,1]$. 
+
+\begin{proof}
+      Let $X$ be a gradient-like vector field for $f$. Since $f$ has no critical values in $[a,b]$, we can consider a new vector field $Y$ on $M_{[a,b]}$ defined by $Y = \frac{X}{X\cdot f}$. Intuitively, we are normalizing $X$ such that the integral curves of $Y$ are unit speed under the ``metric'' defined by $f$. We can verify this. Let $p \in f^{-1}(a)$ (in fact, this $p$ can be chosen to be anywhere on $M_{[a,b]}$) and let $c_p(t)$ denote the integral curve of $Y$ through $p$. Notice, $\frac{d}{dt}f(c_p(t)) = \frac{d}{dt}c_p(t)\cdot f = Y|_{c(t)}\cdot f = \frac{X\cdot f}{X \cdot f} = 1$, so we can write $f(c_p(t)) = t + C$ for some constant $C$. Since we defined $c_p(0) = p$ and $f(p)=a$, we have that $f(c_p(0)) =a $ and we get that $f(c_p(t))=t+a$, so $f(c_p(b-a)) = b-a+a = b$. What we have just shown is that each integral curve of $Y$ starting at a point on $f^{-1}(a)$ reaches some point in $f^{-1}(b)$. By the uniqueness of integral curves, each point on $f^{-1}(a)$ reaches exactly one point on $f^{-1}(b)$. In fact, we claim that the points in $f^{-1}(b)$ are in bijection with the points in $f^{-1}(a)$. Injectivity has already been shown, and to see surjectivity, we can repeat the steps above except with points starting at $f^{-1}(b)$ with integral curves of $Y = -\frac{X}{X\cdot f}$. What we get in this case is that each integral curve starting at a point on $f^{-1}(b)$ reaches a point on $f^{-1}(a)$, so the points on $f^{-1}(a)$ are in bijection with the points on $f^{-1}(b)$ by considering the family of integral curves defined by $Y = \pm\frac{X}{X\cdot f}$.
+
+      Now consider the map $h:f^{-1}(a)\times [0,b-a] \rightarrow M_{[a,b]}$ defined by $h(p,t) = c_p(t)$. We claim this is a diffeomorphism. First, we will show $h$ is surjective. Indeed, for any point $p \in M_{[a,b]}$, we can consider the integral curve $c_p(t)$ of $Y = \frac{X}{X\cdot f}$. By the analysis above, there is some $t'$ such that $c_p(t') \in f^{-1}(b)$, so there is some $q \in f^{-1}(a)$ such that $c_q(t_0)=p$ for some $t_0$. Injectivity follows from the uniqueness of integral curves. 
+
+
+      \textbf{injectivity needs work (periodic integral curve), can clean up surjectivity by proving lemma}
+
+      injectivity: f composed with integral curve is montonic
+
+\end{proof}
+
+\end{document}
