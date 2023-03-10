@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1675729562 "/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex" "Exposition.pdf" "Exposition" 1675729563 0
+["pdflatex"] 1678401943 "/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex" "Exposition.pdf" "Exposition" 1678401944 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1662061314 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1662061314 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1662061314 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -66,9 +66,9 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty" 1675718888 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty" 1675718888 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1675718892 30429 213676d4c7327a21d91ddaed900e7b81 ""
-  "/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex" 1675729561 40393 0a32b1d3b0e87fa0ee95fd1d8da05f27 ""
-  "/Users/Michael/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1675718953 82535 0266753fb37a3d673c1d739765ad059f ""
-  "/Users/Michael/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1675719057 23177122 b4cbd687d04b024e18aae1b7041b9829 ""
+  "/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex" 1678401942 40393 11bb08d8cda73575045dc093b9a0e63b ""
+  "/Users/Michael/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1676050433 82535 0266753fb37a3d673c1d739765ad059f ""
+  "/Users/Michael/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1676050438 23177123 8de89de7adfc9ac47a5231aeba216899 ""
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty" 1662502881 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1662502888 5412 d5a2436094cd7be85769db90f29250a6 ""
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty" 1662502876 18568 bef0df8787fd78f735cde351f0c12fa3 ""
@@ -77,13 +77,13 @@
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty" 1665526865 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvoptions/kvoptions.sty" 1662502902 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/Users/Michael/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty" 1675718687 13815 760b0c02f691ea230f5359c4e1de23a7 ""
-  "Exposition.aux" 1675729563 1572 ef093774201d1424a7a6a71c6e65c5a8 "pdflatex"
-  "Exposition.tex" 1675729561 40393 0a32b1d3b0e87fa0ee95fd1d8da05f27 ""
-  "images//D H_0.png" 1668460995 38359 fb4497c3746b0b76a9487a2de527c30d ""
-  "images//D H_1.png" 1668461594 11290 082857348d9b7ca74d9179423f9f4438 ""
+  "Exposition.aux" 1678401943 1572 ef093774201d1424a7a6a71c6e65c5a8 "pdflatex"
+  "Exposition.tex" 1678401942 40393 11bb08d8cda73575045dc093b9a0e63b ""
+  "images//D_H_0.png" 1668460995 38359 fb4497c3746b0b76a9487a2de527c30d ""
+  "images//D_H_1.png" 1668461594 11290 082857348d9b7ca74d9179423f9f4438 ""
   "images//H_0.png" 1668460979 48115 0a1c2e09c4f25492a84011223cd74b9d ""
   "images//perimeter.png" 1670628741 21527 a754eb3587096726430e602ddf853733 ""
-  "images//sim.png" 1668815947 96043 32b747a147aba21e447694d803660ba3 ""
+  "images//sim.png" 1675924639 87921 e014044e836692e5e858a67940dc1973 ""
   "images//square.png" 1670628483 24648 12b7648d1841cbbb3db45ec1bf3c4a61 ""
   "images//triangle.png" 1670628431 21856 90bc611e8f647c9a0a074e1a62d59fff ""
   (generated)

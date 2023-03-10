@@ -351,7 +351,7 @@ Now we give an important lemma that will describe our surface behaves between cr
 				\includegraphics[scale=0.5]{square.png} \\
 				$H_1 \cong D^1\times D^1$
 
-				\includegraphics[scale = 0.5]{D H_1.png}\\
+				\includegraphics[scale = 0.5]{D_H_1.png}\\
 				$\partial_\cA H_1 \cong D^1 \sqcup D^1$
 		  \end{center}
 	\item \textbf{2-Handle}\\
@@ -360,7 +360,7 @@ Now we give an important lemma that will describe our surface behaves between cr
 				\includegraphics[scale=0.4]{H_0.png}\\
 				$H_2$
 
-				\includegraphics[scale = 0.4]{D H_0.png}\\
+				\includegraphics[scale = 0.4]{D_H_0.png}\\
 				$\partial_\cA H_2$
 		  \end{center}
 \end{enumerate}
@@ -464,7 +464,7 @@ In the context of Morse theory on surfaces, we can look for simplicial 2-complex
                   \includegraphics[scale=0.5]{square.png} \\
                   $H_1 \cong D^1\times D^1$
 
-                  \includegraphics[scale = 0.5]{D H_1.png}\\
+                  \includegraphics[scale = 0.5]{D_H_1.png}\\
                   $\partial_\cA H_1 \cong D^1 \sqcup D^1$
             \end{center}
       \item \textbf{2-Handle}\\
@@ -473,7 +473,7 @@ In the context of Morse theory on surfaces, we can look for simplicial 2-complex
                   \includegraphics[scale=0.4]{H_0.png} \includegraphics[scale=0.4]{triangle.png} \\
                   $H_2 \cong D^2 \cong $ Triangle
 
-                  \includegraphics[scale = 0.4]{D H_0.png}\includegraphics[scale=0.4]{perimeter.png}\\
+                  \includegraphics[scale = 0.4]{D_H_0.png}\includegraphics[scale=0.4]{perimeter.png}\\
                   $\partial_\cA H_2 \cong S^1 \cong$ Perimeter of a Triangle
             
             \end{center}
@@ -490,7 +490,7 @@ Now we can give the proof of the main result:
             \item $i_j = 1$\\
             Attaching a 1 handle is slightly more complicated. First, $M_{p_{i_j}}$ is homeomorphic to some simplicial 2-complex $\cS_M$ with $V_M$ verticies, $E_M$ edges, and $F_M$ faces. Furthermore $\partial M_{p_{i_j}}$ is homeomorphic to some simplicial 1-complex $\cS_j$ with $V_j$ verticies and $E_j$ edges, where $\cS_j \subseteq \cS_M$. We claim that we can assume that there are two distinct edges $E_1, E_2$ such that their endpoints (verticies called, say $V_1, V_1'$ and $V_2,V_2'$) are also distinct. We are free to assume this since the simplicial complex $\cS_j'$ created by adding verticies at the midpoints of each edge and ``splitting'' the original edge into two edges is homeomorphic $\cS_j$. In practice, this data will be guaranteed by the fact that our Morse function behaves as it does. 
             \begin{center}
-                  \includegraphics[scale = 0.7]{sim.png}
+                  \includegraphics[scale = 0.4]{sim.png}
             \end{center}
             Now that we have a subset of $\cS_j$ which is homeomorphic to the attachment boundary $\partial_\cA H_1$, we can attach the handle to the boundary by identifying the respective edges and verticies. Concretely, our 1-handle $H_1$ is homeomorphic to a simplicial 2-complex with $V_H = 4, E_H = 5, F_H = 2$ with attachment boundary $\partial_\cA H_1$ homeomorphic to a simplicial 1-complex with $V_\partial = 4, E_\partial = 2$. We can identify these homeomorphic parts of the ``upper and lower'' attachment boundaries and we can recount the total number of verticies, edges, and faces to get the resulting Euler characteristic. Clearly, the number of faces is just the sum of the two parts, since we don't identify any faces, i.e. $F_{M\cup H_1} = F_M + F_H = F_M + 2$. Next, since we are now identifying 4 verticies of $H_1$ with those on $S_j$, we get that $V_{M\cup H_1} = V_M + V_H - 4 = V_M + 4 - 4 = V_M$ to account for double counting. Finally, we get something similar for the number of edges, namely $E_{M\cup H_1} = E_M + E_H - 2 = E_M + 5 - 2 = E_M + 3$. To get the Euler characteristic, we apply our formula to get $\chi(M \cup H_1) = V_M - E_M - 3 + F_M + 2 = V_M - E_M+ F_M -1 = \chi(M)-1$
             

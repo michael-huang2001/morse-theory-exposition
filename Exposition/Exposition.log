@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.2.6)  6 FEB 2023 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.2.10)  9 MAR 2023 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,21 +247,21 @@ File: images//square.png Graphic file (type png)
 Package pdftex.def Info: images//square.png  used on input line 351.
 (pdftex.def)             Requested size: 188.20265pt x 174.15019pt.
  [8 <./images//H_0.png>]
-<images//D H_1.png, id=46, 389.455pt x 200.75pt>
-File: images//D H_1.png Graphic file (type png)
-<use images//D H_1.png>
-Package pdftex.def Info: images//D H_1.png  used on input line 354.
+<images//D_H_1.png, id=46, 389.455pt x 200.75pt>
+File: images//D_H_1.png Graphic file (type png)
+<use images//D_H_1.png>
+Package pdftex.def Info: images//D_H_1.png  used on input line 354.
 (pdftex.def)             Requested size: 194.72702pt x 100.37474pt.
 File: images//H_0.png Graphic file (type png)
 <use images//H_0.png>
 Package pdftex.def Info: images//H_0.png  used on input line 360.
 (pdftex.def)             Requested size: 183.88373pt x 154.17326pt.
-<images//D H_0.png, id=47, 465.74pt x 374.39874pt>
-File: images//D H_0.png Graphic file (type png)
-<use images//D H_0.png>
-Package pdftex.def Info: images//D H_0.png  used on input line 363.
+<images//D_H_0.png, id=47, 465.74pt x 374.39874pt>
+File: images//D_H_0.png Graphic file (type png)
+<use images//D_H_0.png>
+Package pdftex.def Info: images//D_H_0.png  used on input line 363.
 (pdftex.def)             Requested size: 186.2927pt x 149.75684pt.
- [9 <./images//square.png> <./images//D H_1.png>] [10 <./images//D H_0.png>] [11]
+ [9 <./images//square.png> <./images//D_H_1.png>] [10 <./images//D_H_0.png>] [11]
 Overfull \hbox (1.03181pt too wide) in paragraph at lines 431--432
 \OT1/cmr/bx/n/12 Theorem 8. \OT1/cmr/m/n/12 Ev-ery com-pact n-manifold $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 is home-o-mor-phic to a sim-pli-cial n-complex
  []
@@ -281,9 +281,9 @@ File: images//square.png Graphic file (type png)
 Package pdftex.def Info: images//square.png  used on input line 464.
 (pdftex.def)             Requested size: 188.20265pt x 174.15019pt.
  [13 <./images//triangle.png>]
-File: images//D H_1.png Graphic file (type png)
-<use images//D H_1.png>
-Package pdftex.def Info: images//D H_1.png  used on input line 467.
+File: images//D_H_1.png Graphic file (type png)
+<use images//D_H_1.png>
+Package pdftex.def Info: images//D_H_1.png  used on input line 467.
 (pdftex.def)             Requested size: 194.72702pt x 100.37474pt.
 File: images//H_0.png Graphic file (type png)
 <use images//H_0.png>
@@ -293,9 +293,9 @@ File: images//triangle.png Graphic file (type png)
 <use images//triangle.png>
 Package pdftex.def Info: images//triangle.png  used on input line 473.
 (pdftex.def)             Requested size: 158.58968pt x 146.54489pt.
-File: images//D H_0.png Graphic file (type png)
-<use images//D H_0.png>
-Package pdftex.def Info: images//D H_0.png  used on input line 476.
+File: images//D_H_0.png Graphic file (type png)
+<use images//D_H_0.png>
+Package pdftex.def Info: images//D_H_0.png  used on input line 476.
 (pdftex.def)             Requested size: 186.2927pt x 149.75684pt.
 <images//perimeter.png, id=69, 399.4925pt x 370.38374pt>
 File: images//perimeter.png Graphic file (type png)
@@ -303,22 +303,22 @@ File: images//perimeter.png Graphic file (type png)
 Package pdftex.def Info: images//perimeter.png  used on input line 476.
 (pdftex.def)             Requested size: 159.79416pt x 148.15086pt.
  [14]
-<images//sim.png, id=73, 523.9575pt x 237.88875pt>
+<images//sim.png, id=73, 878.28125pt x 490.83376pt>
 File: images//sim.png Graphic file (type png)
 <use images//sim.png>
 Package pdftex.def Info: images//sim.png  used on input line 493.
-(pdftex.def)             Requested size: 366.76775pt x 166.52098pt.
+(pdftex.def)             Requested size: 351.30627pt x 196.33002pt.
  [15 <./images//perimeter.png>] [16 <./images//sim.png>] [17] (Exposition.aux) ) 
 Here is how much of TeX's memory you used:
  4687 strings out of 476379
- 78364 string characters out of 5786043
+ 78360 string characters out of 5786042
  1867346 words of memory out of 5000000
  25009 multiletter control sequences out of 15000+600000
  523253 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,67p,1717b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Exposition.pdf (17 pages, 352928 bytes).
+Output written on Exposition.pdf (17 pages, 337204 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
