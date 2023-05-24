@@ -59,7 +59,7 @@
 \maketitle
 
 \begin{abstract}
-	Morse theory is the study of how we can extract information about the topology or geometry of a manifold from various functions (Morse functions) defined on the manifold. In this expositional paper, we will first give a quick review of important concepts from multivariable calculus then start developing the ideas of Morse theory on surfaces (2-manifolds). We will then explore an important topological invariant, the Euler Characteristic, and see how Morse theory can help us determine the Euler Characteristic of a surface without knowing what the surface looks like embedded in $\bR^3$. 
+	Morse theory is the study of how we can extract information about the topology or geometry of a manifold from various functions (Morse functions) defined on the manifold. In this expositional paper, we will first give a quick review of important concepts from multivariable calculus then start developing the ideas of Morse theory on surfaces (2-manifolds). Up to this point, we will be following the basic outline of \cite{Matsumoto13}. We will then explore an important topological invariant, the Euler Characteristic, and see how Morse theory can help us determine the Euler Characteristic of a surface without knowing what the surface looks like embedded in $\bR^3$. 
 \end{abstract}
 
 \section{Review of Multivariable Calculus}
@@ -286,7 +286,7 @@ One immediate but important consequence of the Morse Lemma is given as follows.
 	Now we can prove our desired result. For each $p_i \in S$, we define $U_i$ to be the (open) neighborhood around $p_i$ such that $f$ takes one of the three standard ``Morse'' forms, promised by the Morse Lemma. Clearly the $U_i$ form an open cover of $S$, so since $S$ is compact, there is some finite subset $\{p_{\alpha_1}, ... ,p_{\alpha_n}\}$ of critical points such that the $U_{\alpha_i}$ cover S. However, we claim now that $f$ can only have $n$ critical points in $S$. Indeed, by the Morse lemma, each $U_{\alpha_i}$ has a local coordinate system $(x,y)$ on which $M = \pm x^2 \pm y^2 +c$, so there is exactly one critical point in each $U_{\alpha_i}$, meaning the total number of critical points is equal to the total number in the finite subcover, $n$.
 \end{proof}
 \noindent
-There are countlessly many more results we can prove just by knowing the Morse lemma, but in order to keep this section relatively brief, we will just list a few interesting ones without giving a proof. 
+There are countlessly many more results we can prove just by knowing the Morse lemma, but in order to keep this section relatively brief, we will just list a few interesting ones without giving a proof. The proofs to the following theorems can be found in \cite{Matsumoto13}. 
 
 \begin{theorem}
 	Let $M\subset \bR^3$ be a compact surface. If there exists a morse function $f:M\rightarrow \bR$ with exactly two non-degenerate critical points, then $M$ is diffeomorphic to the 2-sphere, $S^2$. 
@@ -490,7 +490,7 @@ Now we can give the proof of the main result:
             \item $i_j = 1$\\
             Attaching a 1 handle is slightly more complicated. First, $M_{p_{i_j}}$ is homeomorphic to some simplicial 2-complex $\cS_M$ with $V_M$ verticies, $E_M$ edges, and $F_M$ faces. Furthermore $\partial M_{p_{i_j}}$ is homeomorphic to some simplicial 1-complex $\cS_j$ with $V_j$ verticies and $E_j$ edges, where $\cS_j \subseteq \cS_M$. We claim that we can assume that there are two distinct edges $E_1, E_2$ such that their endpoints (verticies called, say $V_1, V_1'$ and $V_2,V_2'$) are also distinct. We are free to assume this since the simplicial complex $\cS_j'$ created by adding verticies at the midpoints of each edge and ``splitting'' the original edge into two edges is homeomorphic $\cS_j$. In practice, this data will be guaranteed by the fact that our Morse function behaves as it does. 
             \begin{center}
-                  \includegraphics[scale = 0.4]{sim.png}
+                  \includegraphics[scale = 0.3]{sim.png}
             \end{center}
             Now that we have a subset of $\cS_j$ which is homeomorphic to the attachment boundary $\partial_\cA H_1$, we can attach the handle to the boundary by identifying the respective edges and verticies. Concretely, our 1-handle $H_1$ is homeomorphic to a simplicial 2-complex with $V_H = 4, E_H = 5, F_H = 2$ with attachment boundary $\partial_\cA H_1$ homeomorphic to a simplicial 1-complex with $V_\partial = 4, E_\partial = 2$. We can identify these homeomorphic parts of the ``upper and lower'' attachment boundaries and we can recount the total number of verticies, edges, and faces to get the resulting Euler characteristic. Clearly, the number of faces is just the sum of the two parts, since we don't identify any faces, i.e. $F_{M\cup H_1} = F_M + F_H = F_M + 2$. Next, since we are now identifying 4 verticies of $H_1$ with those on $S_j$, we get that $V_{M\cup H_1} = V_M + V_H - 4 = V_M + 4 - 4 = V_M$ to account for double counting. Finally, we get something similar for the number of edges, namely $E_{M\cup H_1} = E_M + E_H - 2 = E_M + 5 - 2 = E_M + 3$. To get the Euler characteristic, we apply our formula to get $\chi(M \cup H_1) = V_M - E_M - 3 + F_M + 2 = V_M - E_M+ F_M -1 = \chi(M)-1$
             
@@ -508,5 +508,12 @@ Now we can give the proof of the main result:
 \section{Acknowledgements}
 
 Professor McFeely Jackson Goodman was the advisor for this project and gave great guidance and intuition for this independent study. 
+
+\begin{thebibliography}{9}
+	\bibitem{Matsumoto13}
+	Matsumoto, Y. (2013). Morse theory. American Mathematical Society.
+	\bibitem{Milnor63}
+	Milnor, J. W. (1963). Morse theory. Annals of Mathematics, 51(2), 238-254.
+\end{thebibliography}
 
 \end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.2.10)  9 MAR 2023 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.2.10)  13 MAR 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex"
-(/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/Exposition/Exposition.tex
+**"/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/morse-theory-exposition/Exposition/Exposition.tex"
+(/Users/Michael/Desktop/School Archives/S5 2022 Fall/Math 199/morse-theory-exposition/Exposition/Exposition.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-02> (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -307,18 +307,18 @@ Package pdftex.def Info: images//perimeter.png  used on input line 476.
 File: images//sim.png Graphic file (type png)
 <use images//sim.png>
 Package pdftex.def Info: images//sim.png  used on input line 493.
-(pdftex.def)             Requested size: 351.30627pt x 196.33002pt.
+(pdftex.def)             Requested size: 263.4864pt x 147.25125pt.
  [15 <./images//perimeter.png>] [16 <./images//sim.png>] [17] (Exposition.aux) ) 
 Here is how much of TeX's memory you used:
- 4687 strings out of 476379
- 78360 string characters out of 5786042
+ 4689 strings out of 476379
+ 78503 string characters out of 5786042
  1867346 words of memory out of 5000000
- 25009 multiletter control sequences out of 15000+600000
+ 25011 multiletter control sequences out of 15000+600000
  523253 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,67p,1717b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,10n,67p,1741b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Exposition.pdf (17 pages, 337204 bytes).
+Output written on Exposition.pdf (17 pages, 338196 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
